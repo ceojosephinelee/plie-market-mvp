@@ -36,7 +36,7 @@ plie-market-mvp/
 ┣ src/
 ┃ ┣ main/
 ┃ ┃ ┣ java/com/example/plie_market_mvp/
-┃ ┃ ┃ ┣ PlieMarketMvpApplication.java   # 메인 실행 클래스
+┃ ┃ ┃ ┣ PlieMarketMvpApplication.java  
 ┃ ┃ ┃ ┣ config/                      
 ┃ ┃ ┃ ┣ controller/               
 ┃ ┃ ┃ ┣ dto/                           
