@@ -26,6 +26,29 @@
 ## 시스템 아키텍쳐
 
 ## 프로젝트 구조
+plie-market-mvp/
+┣ .gitignore
+┣ build.gradle
+┣ settings.gradle
+┣ README.md
+┣ src/
+┃ ┣ main/
+┃ ┃ ┣ java/com/example/plie_market_mvp/
+┃ ┃ ┃ ┣ PlieMarketMvpApplication.java   # 메인 실행 클래스
+┃ ┃ ┃ ┣ config/                      
+┃ ┃ ┃ ┣ controller/               
+┃ ┃ ┃ ┣ dto/                           
+┃ ┃ ┃ ┣ entity/                      
+┃ ┃ ┃ ┣ repository/                  
+┃ ┃ ┃ ┣ service/                    
+┃ ┃ ┃ ┗ exception/                 
+┃ ┃ ┗ resources/
+┃ ┃ ┃ ┣ application.yml              
+┃ ┃ ┃ ┣ static/                      
+┃ ┃ ┃ ┗ templates/            
+┃ ┗ test/java/com/example/plie_market_mvp/ 
+┗ gradlew, gradlew.bat
+┗ gradle/
 
 ## API 명세서
 
