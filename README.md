@@ -26,7 +26,9 @@
 ## 시스템 아키텍쳐
 
 ## 프로젝트 구조
-plie-market-mvp/
+<pre>
+  <code>
+    plie-market-mvp/
 ┣ .gitignore
 ┣ build.gradle
 ┣ settings.gradle
@@ -49,6 +51,9 @@ plie-market-mvp/
 ┃ ┗ test/java/com/example/plie_market_mvp/ 
 ┗ gradlew, gradlew.bat
 ┗ gradle/
+  </code>
+</pre>
+
 
 ## API 명세서
 
