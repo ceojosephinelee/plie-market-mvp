@@ -28,7 +28,7 @@
 ## 프로젝트 구조
 <pre>
   <code>
-    plie-market-mvp/
+plie-market-mvp/
 ┣ .gitignore
 ┣ build.gradle
 ┣ settings.gradle
