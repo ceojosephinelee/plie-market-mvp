@@ -41,7 +41,7 @@ public class ArticleService {
 
         articleRepository.save(article);
 
-        return toResponse(article);
+        return toResponse(article); //Entity를 dto로 변환!
     }
 
     // 글 한 건 조회 (조회수 증가 포함)
@@ -95,7 +95,7 @@ public class ArticleService {
         articleRepository.delete(article);
     }
 
-    private ArticleResponse toResponse(Article article) {
+    private ArticleResponse toResponse(Article article) { //entity를 dto로 변환!
         return new ArticleResponse(
                 article.getArticleId(),
                 article.getTitle(),

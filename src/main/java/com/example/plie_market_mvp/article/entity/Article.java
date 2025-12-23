@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "article")
+@Table(name = "articles")
 @NoArgsConstructor
 @Getter
 public class Article {
@@ -24,7 +24,7 @@ public class Article {
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private Category category;
-    @Column(nullable = false)
+    @Column(name = "item_condition",nullable = false) //와.......예약어 주의......
     @Enumerated(EnumType.STRING)
     private Condition condition;
     @Column(nullable = false)
@@ -46,7 +46,7 @@ public class Article {
     private LocalDateTime updatedAt = LocalDateTime.now();
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id", nullable = false)
+    @JoinColumn(name = "userId", nullable = false)
     private User user;
 
     public void increaseViewCount() {
